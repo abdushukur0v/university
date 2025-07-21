@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Университет Будущего</title>
+   <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+  <header>
+    <h1>Университет Будущего</h1>
+    <nav>
+      <a href="#about">О нас</a>
+      <a href="#faculties">Факультеты</a>
+      <a href="#admission">Поступление</a>
+      <a href="#research">Наука</a>
+      <a href="#life">Студенческая жизнь</a>
+      <a href="#news">Новости</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Добро пожаловать в Университет Будущего</h2>
+    <p>Образование, которое вдохновляет. Возможности, которые открывают мир.</p>
+    <a href="#admission" class="btn">Поступить сейчас</a>
+  </section>
+
+  <section id="about">
+    <h2>О университете</h2>
+    <p>Мы — современное государственное учреждение, объединяющее инновации, традиции и лидерство в образовании. Более 20 000 студентов, международное признание и лучшие преподаватели.</p>
+  </section>
+
+  <section id="faculties">
+  <h2>Факультеты</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="инфо.jpeg" alt="Информационные технологии">
+      <div class="card-content">
+        <h3>Информационные технологии</h3>
+        <p>Будущее создается здесь</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="техно.jpeg" alt="Экономика и управление">
+      <div class="card-content">
+        <h3>Экономика и управление</h3>
+        <p>Лидеры нового поколения</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="мед.jpeg" alt="Медицина">
+      <div class="card-content">
+        <h3>Медицина</h3>
+        <p>Служение обществу и науке</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="юрист.jpeg" alt="Юриспруденция">
+      <div class="card-content">
+        <h3>Юриспруденция</h3>
+        <p>Справедливость и право</p>
+      </div>
+    </div>
+  </div>
+  <a class="btn" href="#about">Узнать больше</a>
+</section>
+
+ <section id="admission">
+  <h2>Поступление</h2>
+  <div class="admission-flex">
+    <div>
+      <p>Открой для себя свои возможности: бакалавриат, магистратура, аспирантура.</p>
+      <h3>Этапы поступления:</h3>
+      <ol class="steps">
+        <li>Подача онлайн-заявки</li>
+        <li>Собеседование / экзамен</li>
+        <li>Получение решения</li>
+        <li>Зачисление и подписание договора</li>
+      </ol>
+    </div>
+    <div style="flex: 1; min-width: 280px;">
+      <form action="#" method="post" style="background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        <h3 style="margin-bottom: 15px;">Подать заявку</h3>
+        <label for="name" style="display:block; margin-top:10px;">Имя</label>
+        <input type="text" id="name" name="name" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:8px; margin-top:5px;">
+
+        <label for="email" style="display:block; margin-top:15px;">Email</label>
+        <input type="email" id="email" name="email" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:8px; margin-top:5px;">
+
+        <label for="phone" style="display:block; margin-top:15px;">Телефон</label>
+        <input type="tel" id="phone" name="phone" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:8px; margin-top:5px;">
+
+        <label for="faculty" style="display:block; margin-top:15px;">Выберите факультет</label>
+        <select id="faculty" name="faculty" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:8px; margin-top:5px;">
+          <option value=\"\">-- выберите --</option>
+          <option value=\"it\">Информационные технологии</option>
+          <option value=\"economics\">Экономика и управление</option>
+          <option value=\"medicine\">Медицина</option>
+          <option value=\"law\">Юриспруденция</option>
+        </select>
+
+        <button type="submit" class="btn" style="width: 100%; margin-top: 20px;">Отправить</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <section id="research">
+    <h2>Научная деятельность</h2>
+    <p>Более 500 проектов ежегодно, участие в международных грантах, публикации и конференции мирового уровня.</p>
+    <div class="grid">
+      <div class="card">
+        <img src="наука.jpeg" alt="Биотехнологии">
+        <div class="card-content"><h4>Биотехнологии</h4></div>
+      </div>
+      <div class="card">
+        <img src="ии.jpeg" alt="ИИ">
+        <div class="card-content"><h4>Искусственный интеллект</h4></div>
+      </div>
+      <div class="card">
+        <img src="био.jpeg" alt="Экология">
+        <div class="card-content"><h4>Экология и устойчивое развитие</h4></div>
+      </div>
+    </div>
+  </section>
+
+ <section id="life">
+  <h2>Студенческая жизнь</h2>
+  <p>Клубы, события, волонтерство и спортивные достижения. Университет — это не только учёба!</p>
+  <div class="grid">
+    <div class="card">
+      <img src="творчество.jpeg" alt="Творческие клубы">
+      <div class="card-content"><h4>Творческие клубы</h4></div>
+    </div>
+    <div class="card">
+      <img src="спорт1.jpeg" alt="Спортивные секции">
+      <div class="card-content"><h4>Спортивные секции</h4></div>
+    </div>
+    <div class="card">
+      <img src="обмен.jpeg" alt="Обмен студентами">
+      <div class="card-content"><h4>Обмен студентами</h4></div>
+    </div>
+    <div class="card">
+      <img src="спорт.jpeg" alt="Конкурсы и олимпиады">
+      <div class="card-content"><h4>Конкурсы и олимпиады</h4></div>
+    </div>
+  </div>
+</section>
+
+  <section id="news">
+    <h2>Новости</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="ии.jpeg" alt="Лаборатория ИИ">
+        <div class="card-content"><h4>Открытие новой лаборатории ИИ</h4><p>Июнь 2025</p><a href="#" class="btn">Читать далее</a></div>
+      </div>
+      <div class="card">
+        <img src="хакатон.jpeg" alt="Хакатон Дубай">
+        <div class="card-content"><h4>Победа на хакатоне в Дубае</h4><p>Май 2025</p><a href="#" class="btn">Читать далее</a></div>
+      </div>
+      <div class="card">
+        <img src="кампус.jpeg" alt="Новый кампус">
+        <div class="card-content"><h4>Новый кампус в Сколково</h4><p>Апрель 2025</p><a href="#" class="btn">Читать далее</a></div>
+      </div>
+      <div class="card">
+        <img src="грант.jpeg" alt="Грант EU">
+        <div class="card-content"><h4>Получен грант ЕС на климатические исследования</h4><p>Март 2025</p><a href="#" class="btn">Читать далее</a></div>
+      </div>
+      <div class="card">
+        <img src="выставка.jpeg" alt="Выставка студенческих проектов">
+        <div class="card-content"><h4>Выставка студенческих проектов</h4><p>Февраль 2025</p><a href="#" class="btn">Читать далее</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Контакты</h2>
+    <p>Адрес: г. Москва, ул. Академическая, 1<br>Тел.: +7 (495) 123-45-67<br>Email: info@futureuniversity.ru</p>
+    <a class="btn" href="https://t.me/futureuniversity" target="_blank">Телеграм</a>
+    <a class="btn" href="https://wa.me/71234567890" target="_blank">WhatsApp</a>
+  </section>
+
+  <footer>
+    <h1>Университет Будущего</h1>
+    <div class="footer-links">
+      <a href="#about">О нас</a>
+      <a href="#faculties">Факультеты</a>
+      <a href="#admission">Поступление</a>
+      <a href="#research">Наука</a>
+      <a href="#life">Студенческая жизнь</a>
+      <a href="#news">Новости</a>
+      <a href="#contact">Контакты</a>
+    </div>
+    <div class="socials">
+      <a href="https://t.me/futureuniversity" target="_blank">Телеграм</a>
+      <a href="https://vk.com/futureuniversity" target="_blank">ВКонтакте</a>
+      <a href="https://instagram.com/futureuniversity" target="_blank">Instagram</a>
+    </div>
+    <p>© 2025 Университет Будущего. Все права защищены.</p>
+  </footer>
+</body>
+</html>
